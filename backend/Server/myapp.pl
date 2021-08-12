@@ -16,7 +16,7 @@ EOF
 websocket '/api/ws' => sub ($c) {
   $c->on(json => sub ($c, $c_msg) {
     # get client side message
-    my $s_content = $c_msg->{constant};
+    my $s_content = $c_msg->{content};
 
     # modify client side message to generate server side message
     if ($s_content =~ m/名字/g) {
