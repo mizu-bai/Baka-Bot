@@ -1,4 +1,5 @@
 use Mojolicious::Lite -signatures;
+use utf8;
 
 <<EOF;
 
@@ -25,6 +26,7 @@ websocket '/api/ws' => sub ($c) {
       $s_content =~ s/你/我/g;
       $s_content =~ s/吗//g;
       $s_content =~ s/？/！/g;
+      $s_content =~ s/?/!/g;
     }
 
     # server side message json
