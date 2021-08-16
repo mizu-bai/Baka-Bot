@@ -10,9 +10,9 @@ What can this bot do?
 
 这个 Bot 可以做什么?
 
-Q (client side): 你会写代码吗?
-
-A (server side): 我会写代码!
+> Q: 你会写代码吗?
+> 
+> A: 我会写代码!
 
 ## Structure 项目结构
 
