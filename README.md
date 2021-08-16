@@ -1,8 +1,8 @@
-# AI-Bot
+# Baka Bot
 
 A Simple WebSocket Demo, you can talk to a **Jinkou Baka Bot** on the server side.
 
-一个简单的 WebSocket 案例, 你可以与一个位于服务端的人工智能 (大嘘) bot 对话.
+一个简单的 WebSocket 案例, 你可以与一个位于服务端的人工智能 (大嘘) Bot 对话.
 
 ## Quick Start
 
