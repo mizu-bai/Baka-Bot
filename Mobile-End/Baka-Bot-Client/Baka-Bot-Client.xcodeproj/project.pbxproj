@@ -3,34 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2F31289681930DF03CC052D8 /* Pods_Baka_Bot_Client.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71AF1598B103DC4F4EFCE15 /* Pods_Baka_Bot_Client.framework */; };
+		6327B42626CBCCBE00392C2D /* MZChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6327B42526CBCCBD00392C2D /* MZChatViewController.m */; };
 		63B6C54A26CA7E270011054F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6C54926CA7E270011054F /* AppDelegate.m */; };
 		63B6C54D26CA7E270011054F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6C54C26CA7E270011054F /* SceneDelegate.m */; };
-		63B6C55026CA7E270011054F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6C54F26CA7E270011054F /* ViewController.m */; };
 		63B6C55326CA7E270011054F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B6C55126CA7E270011054F /* Main.storyboard */; };
 		63B6C55526CA7E280011054F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B6C55426CA7E280011054F /* Assets.xcassets */; };
 		63B6C55826CA7E280011054F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B6C55626CA7E280011054F /* LaunchScreen.storyboard */; };
 		63B6C55B26CA7E280011054F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6C55A26CA7E280011054F /* main.m */; };
+		63FF4D5526CDACAE0095810A /* MZMessgae.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FF4D5426CDACAE0095810A /* MZMessgae.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		354CAC6B5988612515134D97 /* Pods-Baka-Bot-Client.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baka-Bot-Client.release.xcconfig"; path = "Target Support Files/Pods-Baka-Bot-Client/Pods-Baka-Bot-Client.release.xcconfig"; sourceTree = "<group>"; };
+		6327B42426CBCCBD00392C2D /* MZChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZChatViewController.h; sourceTree = "<group>"; };
+		6327B42526CBCCBD00392C2D /* MZChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZChatViewController.m; sourceTree = "<group>"; };
 		63B6C54526CA7E270011054F /* Baka-Bot-Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Baka-Bot-Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B6C54826CA7E270011054F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		63B6C54926CA7E270011054F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		63B6C54B26CA7E270011054F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		63B6C54C26CA7E270011054F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		63B6C54E26CA7E270011054F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		63B6C54F26CA7E270011054F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		63B6C55226CA7E270011054F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63B6C55426CA7E280011054F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63B6C55726CA7E280011054F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63B6C55926CA7E280011054F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63B6C55A26CA7E280011054F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63FF4D5326CDACAE0095810A /* MZMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZMessage.h; sourceTree = "<group>"; };
+		63FF4D5426CDACAE0095810A /* MZMessgae.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZMessgae.m; sourceTree = "<group>"; };
 		96419E2CE8D55AA34837B3A6 /* Pods-Baka-Bot-Client.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baka-Bot-Client.debug.xcconfig"; path = "Target Support Files/Pods-Baka-Bot-Client/Pods-Baka-Bot-Client.debug.xcconfig"; sourceTree = "<group>"; };
 		D71AF1598B103DC4F4EFCE15 /* Pods_Baka_Bot_Client.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Baka_Bot_Client.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -61,7 +64,6 @@
 				96419E2CE8D55AA34837B3A6 /* Pods-Baka-Bot-Client.debug.xcconfig */,
 				354CAC6B5988612515134D97 /* Pods-Baka-Bot-Client.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -90,9 +92,11 @@
 				63B6C54926CA7E270011054F /* AppDelegate.m */,
 				63B6C54B26CA7E270011054F /* SceneDelegate.h */,
 				63B6C54C26CA7E270011054F /* SceneDelegate.m */,
-				63B6C54E26CA7E270011054F /* ViewController.h */,
-				63B6C54F26CA7E270011054F /* ViewController.m */,
 				63B6C55126CA7E270011054F /* Main.storyboard */,
+				6327B42426CBCCBD00392C2D /* MZChatViewController.h */,
+				6327B42526CBCCBD00392C2D /* MZChatViewController.m */,
+				63FF4D5326CDACAE0095810A /* MZMessage.h */,
+				63FF4D5426CDACAE0095810A /* MZMessgae.m */,
 				63B6C55426CA7E280011054F /* Assets.xcassets */,
 				63B6C55626CA7E280011054F /* LaunchScreen.storyboard */,
 				63B6C55926CA7E280011054F /* Info.plist */,
@@ -129,6 +133,7 @@
 		63B6C53D26CA7E270011054F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MZ;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					63B6C54426CA7E270011054F = {
@@ -214,10 +219,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63B6C55026CA7E270011054F /* ViewController.m in Sources */,
+				63FF4D5526CDACAE0095810A /* MZMessgae.m in Sources */,
 				63B6C54A26CA7E270011054F /* AppDelegate.m in Sources */,
 				63B6C55B26CA7E280011054F /* main.m in Sources */,
 				63B6C54D26CA7E270011054F /* SceneDelegate.m in Sources */,
+				6327B42626CBCCBE00392C2D /* MZChatViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
