@@ -69,7 +69,7 @@
     CGRect rectEnd = [notification.userInfo[UIKeyboardFrameEndUserInfoKey] CGRectValue];
     CGFloat keyboardY = rectEnd.origin.y;
     CGFloat transformValue = keyboardY - self.view.frame.size.height;
-    // transformValue > 0, keyboard will pop up
+    // transformValue < 0, keyboard will pop up
     // transformValue = 0, keyboard will go back
     if (transformValue < 0) {
         // consider the safe area view
@@ -116,7 +116,6 @@
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
     // TODO: send message
-
     self.inputTextField.text = nil;
     return YES;
 }
