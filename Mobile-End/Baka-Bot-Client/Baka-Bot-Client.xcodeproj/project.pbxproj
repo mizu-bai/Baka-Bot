@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2F31289681930DF03CC052D8 /* Pods_Baka_Bot_Client.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71AF1598B103DC4F4EFCE15 /* Pods_Baka_Bot_Client.framework */; };
+		3325D572CAC7F84FD99BFA04 /* MZMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3325D733D9F3C4EE9986DD7D /* MZMessageCell.m */; };
+		3325D5C7C04018617170CB95 /* MZMessageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3325D8FDD66A100EF801EC29 /* MZMessageFrame.m */; };
 		6327B42626CBCCBE00392C2D /* MZChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6327B42526CBCCBD00392C2D /* MZChatViewController.m */; };
 		63B6C54A26CA7E270011054F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6C54926CA7E270011054F /* AppDelegate.m */; };
 		63B6C54D26CA7E270011054F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6C54C26CA7E270011054F /* SceneDelegate.m */; };
@@ -19,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3325D733D9F3C4EE9986DD7D /* MZMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZMessageCell.m; sourceTree = "<group>"; };
+		3325D8FDD66A100EF801EC29 /* MZMessageFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZMessageFrame.m; sourceTree = "<group>"; };
+		3325D97F214A4840BAEF6EEF /* MZMessageFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZMessageFrame.h; sourceTree = "<group>"; };
+		3325DFC96A17479785AE3E84 /* MZMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZMessageCell.h; sourceTree = "<group>"; };
 		354CAC6B5988612515134D97 /* Pods-Baka-Bot-Client.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baka-Bot-Client.release.xcconfig"; path = "Target Support Files/Pods-Baka-Bot-Client/Pods-Baka-Bot-Client.release.xcconfig"; sourceTree = "<group>"; };
 		6327B42426CBCCBD00392C2D /* MZChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZChatViewController.h; sourceTree = "<group>"; };
 		6327B42526CBCCBD00392C2D /* MZChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZChatViewController.m; sourceTree = "<group>"; };
@@ -101,6 +107,10 @@
 				63B6C55626CA7E280011054F /* LaunchScreen.storyboard */,
 				63B6C55926CA7E280011054F /* Info.plist */,
 				63B6C55A26CA7E280011054F /* main.m */,
+				3325D8FDD66A100EF801EC29 /* MZMessageFrame.m */,
+				3325D97F214A4840BAEF6EEF /* MZMessageFrame.h */,
+				3325D733D9F3C4EE9986DD7D /* MZMessageCell.m */,
+				3325DFC96A17479785AE3E84 /* MZMessageCell.h */,
 			);
 			path = "Baka-Bot-Client";
 			sourceTree = "<group>";
@@ -224,6 +234,8 @@
 				63B6C55B26CA7E280011054F /* main.m in Sources */,
 				63B6C54D26CA7E270011054F /* SceneDelegate.m in Sources */,
 				6327B42626CBCCBE00392C2D /* MZChatViewController.m in Sources */,
+				3325D5C7C04018617170CB95 /* MZMessageFrame.m in Sources */,
+				3325D572CAC7F84FD99BFA04 /* MZMessageCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

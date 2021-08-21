@@ -7,5 +7,6 @@ target 'Baka-Bot-Client' do
 
   # Pods for Baka-Bot-Client
   pod 'SocketRocket'
+  pod 'FMDB'
 
 end

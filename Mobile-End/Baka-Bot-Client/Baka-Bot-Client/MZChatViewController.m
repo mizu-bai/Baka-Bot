@@ -7,6 +7,8 @@
 
 #import "MZChatViewController.h"
 #import "MZMessage.h"
+#import "MZMessageFrame.h"
+#import "MZMessageCell.h"
 #import <SocketRocket/SocketRocket.h>
 
 #define kApiUrlString @"ws://localhost:3000/api/ws"
@@ -48,6 +50,7 @@
     UIView *leftView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 5, 1)];
     self.inputTextField.leftView = leftView;
     self.inputTextField.leftViewMode = UITextFieldViewModeAlways;
+    self.inputTextField.delegate = self;
 
     // keyboard configurations (KVO)
     [[NSNotificationCenter defaultCenter] addObserver:self
@@ -101,8 +104,10 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    // TODO: configure cells
-    return nil;
+    MZMessageFrame *messageFrame = self.messageFrames[(NSUInteger) indexPath.row];
+    MZMessageCell *messageCell = [MZMessageCell messageCellWithTableView:tableView];
+    messageCell.messageFrame = messageFrame;
+    return messageCell;
 }
 
 #pragma mark - Table View Delegate

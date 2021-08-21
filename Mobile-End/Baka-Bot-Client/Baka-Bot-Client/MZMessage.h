@@ -22,11 +22,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, assign) int time;           // unix time (number)
 @property(nonatomic, copy) NSString *content;    // message content (string)
 
+@property (nonatomic, assign) BOOL timeLabelHidden;
+
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary;
 
 + (instancetype)messageWithDictionary:(NSDictionary *)dictionary;
-
-+ (NSDictionary *)dictionaryValue;
 
 
 @end
